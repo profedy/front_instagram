@@ -1,0 +1,47 @@
+*{ 	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #green;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+ }
+
+.box{
+    display:flex;
+ 	justify-content:start;
+    /*width: 50%;*/
+    height:100vh;
+ }
+
+.block{
+ 	width:60vh;
+ 	height:100vh;
+ 	background-color: red;
+ 	border: 1px solid; black;
+ }
+
+.grupo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+ }
+
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 65vh;
+}
+
