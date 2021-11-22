@@ -8,7 +8,7 @@
  body{
     width: 100%;
     min-height: 100vh;
-    background-color: #green;
+    background-color: #efefef;
     margin: 0;
     padding: 0;
     display: flex;
@@ -25,23 +25,108 @@
 .block{
  	width:60vh;
  	height:100vh;
- 	background-color: red;
- 	border: 1px solid; black;
  }
 
 .grupo {
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
     align-items: center;
-    
-
+    flex-direction: column;
+    padding: 1rem;
+    margin:20;
+    margin-top: 80px;
+    width: 100%;
+    background-color: #fff;
+    border:gray 5px;
  }
 
+.filho{
+
+    margin: 0;
+}
+
+
+.filho2{
+
+    margin-top: 3%;
+}
+
+
+.login{
+
+    color: #fff;
+    background-color: #2295f6;
+    padding: 5px;
+    border-radius: 4px;
+    margin:3px;
+
+}
+
+
+.login:hover{
+    background-color:blue;
+}
+
+.logout{
+
+    color:#2295f6;
+}
+
+.logout:hover {color: blue;}
+
+.perfil{
+    border-radius: 150px;
+    margin-top:10px;
+}
 
 .phone{
     display: flex;
     align-items: center;
     justify-content:center;
-    width: 65vh;
+    width: 70vh;
 }
+
+span { 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+ }
+
+.download{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+
+ .download img{
+    width: 7rem;
+    margin: 4px;
+ }
+
+.pergunta{ color: gray }
+
+
+
+/*Media Queries*/
+
+@media (max-width: 1024px)
+{ 
+  .box  {width:0%;}
+  .phone{display: none;}
+  body {background-color: violet;}
+}
+
+@media (max-width: 650px)
+{ .box {width: 0%; background-color: green;} 
+  .phone {display:none;} 
+  body{background-color: skyblue;}
+
+}
+
 
